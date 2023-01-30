@@ -1,0 +1,49 @@
+@media only screen and (max-width: 919px)
+{
+    .contact-left, .contact-right
+    {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .copyright
+    {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 919px)  
+{
+    #contact 
+    {
+        .container
+        {
+            padding: 5px 5%;
+        }
+
+        .sub-title
+        {
+            font-size: 30px;
+        }
+    }
+
+    .contact-left
+    {
+        flex-basis: 30%;
+
+        p 
+        {
+            font-size: 14px;
+
+            i 
+            {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .contact-right
+    {
+        flex-basis: 65%;
+    }
+}

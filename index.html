@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Home</title>
+
+   <!-- Fonts poppins -->
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+   <!-- Custom CSS -->
+   <link rel="stylesheet" type="text/css" href="CSS/style.css">
+
+   <!-- Font awesome-->
+   <script src="https://kit.fontawesome.com/1ec278ba68.js"></script>
+
+   <!-- Custom JS -->
+   <script src="JS/tab.js" defer></script>
+   <script src="JS/toggle-menu.js" defer></script>
+</head>
+<body>
+      <!------------------------------------------------ header ------------------------------------------------------>
+      <header id="header">
+         <div class="container">
+            <nav>
+               <img class="logo" src="img/logo.png" alt="c' è un problema nella visualizzazione dell' immagine">
+
+               <ul id="side-menu">
+                  <li><a href="#header">Home</a></li>
+                  <li><a href="#about">Chi sono</a></li>
+                  <li><a href="#services">Servizi</a></li>
+                  <li><a href="#portfolio">Portfolio</a></li>
+                  <li><a href="#contact">Contatti</a></li>
+                  <i class="fa-solid fa-xmark"></i>
+               </ul>
+
+               <i class="fa-solid fa-bars"></i>
+            </nav>
+
+            <div class="header-text">
+               <p>UI/UX designer</p>
+               <h1>Ciao,<br> mi chiamo <span>Kevin</span><br>e sono un web designer</h1>
+            </div><!-- fine div.header-text -->
+         </div><!-- fine div.container -->
+      </header>
+
+      <!------------------------------------------------ about ------------------------------------------------------>
+
+      <section id="about">
+         <div class="container">
+            <div class="row">
+               <div class="about-col-1">
+                  <img src="img/user.png" alt="c' è un problema nella visualizzazione dell' immagine">
+               </div><!-- fine div.about-col-1 -->
+
+               <div class="about-col-2">
+                  <h1 class="sub-title">Info su di me</h1>
+
+                  <p class="about-text">
+                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                     Veritatis alias voluptatum, voluptatem dicta, neque, 
+                     quibusdam iusto sunt odit ut expedita in quasi nam blanditiis iste? 
+                     Qui repellendus facere excepturi aperiam!
+                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                     Veritatis alias voluptatum, voluptatem dicta, neque, 
+                     quibusdam iusto sunt odit ut expedita in quasi nam blanditiis iste? 
+                     Qui repellendus facere excepturi aperiam!
+                  </p>
+
+                  <div class="tab-titles">
+                     <p class="tab-links active-link" onclick="openTab('skills')">Conoscenze</p>
+                     <p class="tab-links" onclick="openTab('experience')">Esperienze</p>
+                     <p class="tab-links" onclick="openTab('education')">Formazione</p>
+                  </div><!-- fine div.tab-titles -->
+
+                  <div class="tab-contents active-tab" id="skills">
+                     <ul>
+                        <li><span>UI/UX</span><br>progettazione di interfacce Web/App</li>
+                        <li><span>Sviluppo Web</span><br>Sviluppo Web App/Site</li>
+                        <li><span>Sviluppo App</span><br>Sviluppo di iOS/Android Apps</li>
+                     </ul>
+                  </div><!-- fine div#skills -->
+
+                  <div class="tab-contents" id="experience">
+                     <ul>
+                        <li><span>2022 - oggi</span><br>Professore presso Università FED II</li>
+                        <li><span>2019 - 2022</span><br>Project Manager presso StarApp LLC</li>
+                        <li><span>2017 - 2019</span><br>Responsabile per la progettazione UX/UI presso Coin Digital LTD</li>
+                        <li><span>2016 - 2017</span><br>Stage presso ekart eCommerce</li>
+                     </ul>
+                  </div><!-- fine div#experience -->
+
+                  <div class="tab-contents" id="education">
+                     <ul>
+                        <li><span>2016</span><br>Master in Web design presso Politecnico di Milano</li>
+                        <li><span>2010 - 2015</span><br>Studente presso Università FED II</li>
+                        <li><span>2005 - 2010</span><br>Studente presso istituto tecnico inventato</li>
+                     </ul>
+                  </div><!-- fine div#education -->
+               </div><!-- fine div.about-col-2 -->
+            </div><!-- fine div.row -->
+         </div><!-- fine div.container -->
+      </section>
+
+      <!------------------------------------------------ services ------------------------------------------------------>
+  
+      <section id="services">
+         <div class="container">
+            <h1 class="sub-title">Servizi</h1>
+
+            <div class="services-list">
+               <div>
+                  <i class="fa-solid fa-code"></i>
+                  <h2>Web Design</h2>
+                  <p>
+                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, earum? 
+                     Eos, at odio, quod assumenda.
+                  </p>
+                  <a href="#">Leggi altro</a>
+               </div>
+
+               <div>
+                  <i class="fa-solid fa-crop-simple"></i>
+                  <h2>UI/UX Design</h2>
+                  <p>
+                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, earum? 
+                     Eos, at odio, quod assumenda.
+                  </p>
+                  <a href="#">Leggi altro</a>
+               </div>
+
+               <div>
+                  <i class="fa-brands fa-app-store"></i>
+                  <h2>App Design</h2>
+                  <p>
+                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, earum? 
+                     Eos, at odio, quod assumenda.
+                  </p>
+                  <a href="#">Leggi altro</a>
+               </div>
+            </div><!-- fine div.services-list -->
+         </div><!-- fine div.container -->
+      </section>
+
+      <!------------------------------------------------ portfolio ----------------------------------------------------->
+
+      <section id="portfolio">
+         <div class="container">
+            <h1 class="sub-title">Progetti</h1>
+
+            <div class="work-list">
+               <div class="work">
+                  <img src="img/work-1.png" alt="c' è un problema nella visualizzazione dell' immagine">
+
+                  <div class="layer">
+                     <h3>Social Media App</h3>
+                     <p>Quest' applicazione vi mette in contatto con persone talentuose da tutto il mondo. Scaricatela dal Play Store</p>
+                     <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div><!-- fine div.layer -->
+               </div><!-- fine div.work -->
+
+               <div class="work">
+                  <img src="img/work-2.png" alt="c' è un problema nella visualizzazione dell' immagine">
+
+                  <div class="layer">
+                     <h3>Music App</h3>
+                     <p>Quest' applicazione vi mette in contatto con persone talentuose da tutto il mondo. Scaricatela dal Play Store</p>
+                     <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div><!-- fine div.layer -->
+               </div><!-- fine div.work -->
+
+               <div class="work">
+                  <img src="img/work-3.png" alt="c' è un problema nella visualizzazione dell' immagine">
+
+                  <div class="layer">
+                     <h3>Online Shopping App</h3>
+                     <p>Quest' applicazione vi mette in contatto con persone talentuose da tutto il mondo. Scaricatela dal Play Store</p>
+                     <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div><!-- fine div.layer -->
+               </div><!-- fine div.work -->
+            </div><!-- fine div.work-list -->
+
+            <a href="#" class="btn">Guarda altro</a>
+         </div><!-- fine div.container -->
+      </section>
+
+      <!---------------------------------------------------- contact ------------------------------------------------->
+
+      <section id="contact">
+         <div class="container">
+            <div class="row">
+               <div class="contact-left">
+                  <h1 class="sub-title">Contattami</h1>
+                  <p><i class="fa-solid fa-paper-plane"></i> Contact@example.com</p>
+                  <p><i class="fa-solid fa-phone"></i> 0123456789</p>
+
+                  <div class="social-icons">
+                     <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                     <a href="https://www.twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+                     <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                     <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                  </div><!-- fine div.social-icons -->
+
+                  <a href="img/my-cv.pdf" download class="btn-2">Scarica CV</a>
+               </div><!-- fine div.contact-left -->
+
+               <div class="contact-right">
+                  <form>
+                     <input type="text" name="Nome" placeholder="nome" required>
+                     <input type="email" name="Email" placeholder="email" required>
+                     <textarea name="messaggio" rows="6" placeholder="Messaggio" required></textarea>
+                     <button type="submit" class="btn-2">Invia</button>
+                  </form>
+               </div><!-- fine div.contact-right -->
+            </div><!-- fine div.row -->
+         </div><!-- fine div.container -->
+
+         <div class="copyright">
+            <p>Tutti i diritti sono riservati e protetti da copyright</p>
+         </div><!-- fine div.copyright -->
+      </section>
+</body>
+</html>

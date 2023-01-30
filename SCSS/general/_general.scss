@@ -1,0 +1,73 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+html 
+{
+    /* 
+    La proprietà scroll-behavior specifica se animare in modo fluido la posizione di scorrimento, 
+    invece di un salto diretto, 
+    quando l'utente fa clic su un collegamento interno alla pagina.
+    */
+
+    /*
+    il valore smooth Consente un "effetto di scorrimento" animato tra gli elementi all'interno del riquadro di scorrimento.
+    */
+    scroll-behavior: smooth;
+}
+
+body 
+{
+    background-color: $bg-dark;
+    color: #fff;
+}
+
+.container 
+{
+    padding: 10px 10%;
+}
+
+.row
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sub-title
+{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 919px)
+{
+    .sub-title
+    {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 919px) 
+{
+    .sub-title
+    {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 575px)
+{
+   .sub-title
+   {
+        text-align: center;
+   }
+}

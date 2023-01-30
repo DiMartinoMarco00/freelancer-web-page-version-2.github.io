@@ -1,0 +1,118 @@
+@media only screen and (min-width: 920px) and (max-width: 991px) 
+{
+    #header .container
+    {
+       padding: 10px 5%;
+    }
+
+    nav ul li 
+    {
+        margin: 10px 15px;
+    }
+}
+
+@media only screen and (max-width: 919px)
+{
+    nav 
+    {
+        .fa-solid
+        {
+            display: block;
+            font-size: 25px;
+        }
+
+        ul 
+        {
+            background-color: $secondary-color;
+            position: fixed;
+            top: 0;
+            right: -175px;
+            width: 175px;
+            height: 100vh;
+            padding-top: 50px;
+            z-index: 2;
+            transition: right 1s;
+
+            li 
+            {
+               display: block;
+               margin: 25px;
+            }
+
+            .fa-solid
+            {
+                position: absolute;
+                top: 25px;
+                left: 25px;
+                cursor: pointer;
+            }
+        }/*fine ul*/
+    }/*fine nav*/
+}
+
+@media only screen and (max-width: 799px) 
+{
+    .header-text
+    {
+        font-size: 16px;
+        margin-top: 50%;
+
+        h1 
+        {
+            font-size: 30px;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) 
+{
+    #header
+    {
+        background-image: url(../img/phone-background.png);
+    }
+}
+
+@media only screen and (max-width: 350px)
+{
+    .header-text h1 
+    {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-height: 490px)
+{
+    .header-text
+    {
+        margin-top: 25%;
+    }
+} 
+
+@media only screen and (max-height: 400px)
+{
+    .header-text
+    {
+        margin-top: 15%;
+    }
+}
+
+@media only screen and (max-height: 375px)
+{
+    .header-text
+    {
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (max-height: 320px)
+{
+    .header-text
+    {
+        margin-top: 10%;
+
+        h1 
+        {
+            font-size: 20px;
+        }
+    }
+}
